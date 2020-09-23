@@ -31,7 +31,10 @@ class FormController extends Controller
         return view();
     }
 
-
+    public function testinggg()
+    {
+        return view();
+    }
 
 
     public function get_form_data(Form $form)
