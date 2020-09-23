@@ -26,6 +26,14 @@ class FormController extends Controller
         return view('form.form_data',compact('formsmeta'));
     }
 
+    public function test()
+    {
+        return view();
+    }
+
+
+
+
     public function get_form_data(Form $form)
     {
 
