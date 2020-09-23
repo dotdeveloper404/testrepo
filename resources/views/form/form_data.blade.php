@@ -102,6 +102,8 @@
                 <td><a class="btn btn-primary" href="{{ route('form.get_form_data', $meta->form->id) }}">View Form Data</a></td>
                 </tr>
             @endforeach
+
+
         </tbody>
 
 </table>
